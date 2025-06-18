@@ -23,7 +23,7 @@ export default function NotFound() {
       </h1>
 
       <p className="mt-6 text-base">
-        This page does not exist. Or maybe it ran away.<br />
+        This page is still under construction . Or maybe it ran away.<br />
         Either way, you&apos;re being dragged back home.
       </p>
 
