@@ -24,7 +24,7 @@ export default function NotFound() {
 
       <p className="mt-6 text-base">
         This page does not exist. Or maybe it ran away.<br />
-        Either way, you're being dragged back home.
+        Either way, you&apos;re being dragged back home.
       </p>
 
       <div className="mt-10 text-xs uppercase tracking-widest text-gray-600">
