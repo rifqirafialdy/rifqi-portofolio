@@ -32,7 +32,7 @@ export default function NotFound() {
 
       <p className="mt-6 text-sm md:text-base text-gray-800">
         This page is still under construction.<br />
-        Or maybe it ran away. Either way, you're being dragged back home.
+        Or maybe it ran away. Either way, you&apos;re being dragged back home.
       </p>
 
       <div className="mt-10 text-xs uppercase tracking-widest text-gray-500">
