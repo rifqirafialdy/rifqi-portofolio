@@ -109,7 +109,7 @@ with pd.ExcelWriter("normalize_data_pm_python_ver_3.xlsx", engine="openpyxl") as
     </h2>
 
     <p className="text-xl font-sans text-gray-700 max-w-2xl mx-auto">
-      Whether you're interested in collaborating, hiring, or just saying hello — I'm always open to a great conversation.
+      Whether you&apos;re interested in collaborating, hiring, or just saying hello — I&apos;m always open to a great conversation.
     </p>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 font-mono text-lg justify-items-center">
