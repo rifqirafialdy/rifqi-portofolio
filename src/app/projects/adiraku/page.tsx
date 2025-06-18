@@ -124,7 +124,43 @@ export default function AdirakuProjectPage() {
     → View Related Bootcamp Project: Amazon Sales Data Analyst Case
   </Link>
 </section>
+<section id="contact" className="mt-32 px-6 py-24 border-t border-black w-full bg-white">
+  <div className="max-w-4xl mx-auto text-center space-y-10">
+    <h2 className="text-5xl font-bold uppercase font-mono tracking-widest">
+      Get In Touch
+    </h2>
 
+    <p className="text-xl font-sans text-gray-700 max-w-2xl mx-auto">
+      Whether you're interested in collaborating, hiring, or just saying hello — I'm always open to a great conversation.
+    </p>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 font-mono text-lg justify-items-center">
+      <a href="mailto:rifqirafialdy@gmail.com" className="flex items-center gap-4 hover:underline">
+        <span className="text-2xl">📧</span>
+        <span>rifqirafialdy@gmail.com</span>
+      </a>
+
+      <a href="https://wa.me/6285121085055" target="_blank" className="flex items-center gap-4 hover:underline">
+        <span className="text-2xl">💬</span>
+        <span>+62 851-2108-5055</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/rifqirafialdy/" target="_blank" className="flex items-center gap-4 hover:underline">
+        <span className="text-2xl">🔗</span>
+        <span>linkedin.com/in/rifqirafialdy</span>
+      </a>
+
+      <a href="https://github.com/rifqirafialdy" target="_blank" className="flex items-center gap-4 hover:underline">
+        <span className="text-2xl">💻</span>
+        <span>github.com/rifqirafialdy</span>
+      </a>
+    </div>
+
+    <p className="text-sm text-gray-500 mt-10 font-mono">
+      Made with ☕ and curiosity — 2025
+    </p>
+  </div>
+</section>
     
     </main>
   );
