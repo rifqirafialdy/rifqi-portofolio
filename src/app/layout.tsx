@@ -1,23 +1,21 @@
-import type { Metadata } from 'next';
-import './globals.css';
-import { IBM_Plex_Sans, DotGothic16 } from 'next/font/google';
-import Header from './components/Header';
+import type { Metadata } from "next";
+import { Inter, Space_Grotesk } from "next/font/google";
+import "./globals.css";
 
-const ibmPlexSans = IBM_Plex_Sans({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-ibm',
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
-const dotGothic = DotGothic16({
-  subsets: ['latin'],
-  weight: '400',
-  variable: '--font-dot',
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["700"],
+  variable: "--font-space-grotesk",
 });
 
 export const metadata: Metadata = {
-  title: 'My Zine-Inspired Portfolio',
-  description: 'A storytelling-focused personal site built with Next.js & Tailwind CSS',
+  title: "Rifqi Rafialdy - Portfolio",
+  description: "Product Manager & Developer",
 };
 
 export default function RootLayout({
@@ -26,11 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${ibmPlexSans.variable} ${dotGothic.variable}`}>
-      <body>
-        <Header/>
+    <html lang="en">
+      <body className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}>
         {children}
-        </body>
+      </body>
     </html>
   );
 }
