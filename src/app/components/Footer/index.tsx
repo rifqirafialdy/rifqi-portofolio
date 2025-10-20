@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 const ContactLink = ({ href, title, detail }: { href: string, title: string, detail: string }) => (
   <a
@@ -41,7 +40,8 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          I'm always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team.
+          {/* CORRECTED LINE */}
+          I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team.
         </motion.p>
 
         <motion.div 
@@ -57,7 +57,7 @@ const Contact = () => {
             detail="rifqirafialdy@gmail.com"
           />
           <ContactLink 
-            href="https://www.linkedin.com/in/rifqi-rafialdy-dwijaya/"
+            href="https://bit.ly/3I6YaMD"
             title="LinkedIn"
             detail="linkedin.com/in/rifqirafialdy"
           />

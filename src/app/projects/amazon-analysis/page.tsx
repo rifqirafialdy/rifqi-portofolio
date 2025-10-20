@@ -1,25 +1,19 @@
 'use client';
 
-import Link from 'next/link';
 import { BrutalistLink,SectionTitle } from '../components';
 
 export default function AmazonAnalysisPage() {
   return (
-    // Main container with vertical padding for a comfortable reading experience
     <div className="max-w-3xl mx-auto py-32 px-4">
-
-      {/* --- HEADER --- */}
       <header className="mb-16">
         <p className="font-mono text-sm uppercase text-gray-600 mb-2">Data Analyst / Python & Looker Studio</p>
         <h1 className="text-5xl md:text-6xl font-bold font-display leading-tight">Amazon Sales Data Analysis</h1>
       </header>
-
-      {/* --- CONTENT ARTICLE --- */}
       <article className="text-lg leading-relaxed text-gray-800 space-y-4">
         
         <SectionTitle>Overview</SectionTitle>
-        <p>
-          This group project was part of the Dibimbing bootcamp curriculum. My team and I explored sales data from Amazon to uncover key business insights. My specific focus was on <strong>data cleaning</strong>, <strong>normalization</strong>, and <strong>building the ERD</strong>. I'm proud to share that this assignment earned a <strong>perfect score of 100/100</strong>.
+       <p>
+          This group project was part of the Dibimbing bootcamp curriculum. My team and I explored sales data from Amazon to uncover key business insights. My specific focus was on <strong>data cleaning</strong>, <strong>normalization</strong>, and <strong>building the ERD</strong>. I&apos;m proud to share that this assignment earned a <strong>perfect score of 100/100</strong>.
         </p>
 
         <SectionTitle>My Role & Tools Used</SectionTitle>

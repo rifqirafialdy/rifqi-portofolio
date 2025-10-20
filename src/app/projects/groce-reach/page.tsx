@@ -1,27 +1,20 @@
 'use client';
 
-// Reusing the components from our template
 import { SectionTitle, BrutalistLink } from '../components';
 
 export default function GroceReachPage() {
   return (
-    // Main container with vertical padding
     <div className="max-w-3xl mx-auto py-32 px-4">
-
-      {/* --- HEADER --- */}
       <header className="mb-16">
         <p className="font-mono text-sm uppercase text-gray-600 mb-2">Full-Stack Development / Product Management</p>
         <h1 className="text-5xl md:text-6xl font-bold font-display leading-tight">GroceReach E-commerce App</h1>
       </header>
 
-      {/* --- CONTENT ARTICLE --- */}
       <article className="text-lg leading-relaxed text-gray-800 space-y-4">
-        
         <SectionTitle>Overview</SectionTitle>
         <p>
-          GroceReach is a full-stack, location-aware e-commerce application for grocery shopping. The app's core feature is its ability to connect users to the nearest physical store, displaying relevant products and promotions to provide a personalized shopping experience. This was a group project where I was responsible for several key modules.
+          GroceReach is a full-stack, location-aware e-commerce application for grocery shopping. The app&apos;s core feature is its ability to connect users to the nearest physical store, displaying relevant products and promotions to provide a personalized experience.
         </p>
-
         <SectionTitle>My Key Contributions</SectionTitle>
         <ul className="list-disc pl-5 space-y-3">
             <li>
